@@ -11,14 +11,17 @@ anniversaire/
 ├── css/
 │   └── styles.css        # CSS file with styling and animations
 └── js/
-    └── anniversaire.js   # JavaScript file with jQuery interactions
+│   └── anniversaire.js   # JavaScript file with jQuery interactions
+└── source/
+    └── images/   # Folder containing images
+    └── audio/   # Folder containing audio files
 ```
 
 ## Features
 
-- **Progressive Messages**: Three birthday messages that appear one after another with each click.
-- **Surprise Animation**: On the final message click, the background changes, and an optional sound effect plays.
-- **Customisable**: Easily update the background image, sound effect, and message texts for personalization.
+- **Progressive messages**: Three birthday messages that appear one after another with each click.
+- **Surprise animation**: On the final message click, the background changes, and an optional sound effect plays.
+- **Customisable**: Easily update the background image, sound effect, and message texts for personalisation.
 
 ## Setup and Usage
 
@@ -59,4 +62,4 @@ This project is open-source and available under the MIT License.
 
 ---
 
-### Happy Coding! 🥳
+### Happy coding! 🥳
