@@ -6,7 +6,7 @@ This project creates an interactive and fun web birthday card to celebrate your 
 
 The project is organised as follows:
 ```
-anniversaire/
+interactive_web_birthday_card/
 ├── index.html            # Main HTML file containing structure and content
 ├── css/
 │   └── styles.css        # CSS file with styling and animations
