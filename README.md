@@ -1,8 +1,4 @@
-Here's a `README.md` for your birthday card project repository.
-
----
-
-# 🎉 Joyeux Anniversaire - Birthday Card Project 🎉
+# 🎉 Joyeux anniversaire - Birthday Card Project 🎉
 
 This project creates an interactive and fun web birthday card to celebrate your friend’s special day. Built with **HTML**, **CSS**, and **jQuery**, this web page includes progressive birthday wishes and an animated surprise to bring joy and smiles. 
 
