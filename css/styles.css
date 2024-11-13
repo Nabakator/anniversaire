@@ -54,7 +54,7 @@ h1 {
 
 /* Background change/animation */
 body.animate-bg {
-    background-image: url("/source/images/happy_birthday_card.png");
+    background-image: url("/source/images/birthday_card.png");
     background-size: cover;
     background-repeat: no-repeat;
     transition: background 1s ease;
