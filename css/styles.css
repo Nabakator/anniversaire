@@ -52,10 +52,23 @@ h1 {
     pointer-events: auto;
 }
 
-/* Background change/animation */
+/* Background change for tablet-sized devices */
 body.animate-bg {
     background-image: url("/source/images/birthday_card.png");
     background-size: cover;
     background-repeat: no-repeat;
     transition: background 1s ease;
+}
+
+/* Color-changing animation for non-tablet devices */
+@keyframes colorCycle {
+    0% { background-color: #FFD700; } /* Gold */
+    25% { background-color: #FF69B4; } /* Hot Pink */
+    50% { background-color: #87CEEB; } /* Sky Blue */
+    75% { background-color: #32CD32; } /* Lime Green */
+    100% { background-color: #FFD700; } /* Gold */
+}
+
+body.colorful-bg {
+    animation: colorCycle 5s infinite; /* Animation duration and loop */
 }
