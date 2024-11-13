@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFD700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #FF4500;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Styling for birthday messages */
+.voeu {
+    font-size: 1.5em;
+    color: #FF6347;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Optional background animation */
+body.animate-bg {
+    background-image: "/source/images/happy_birthday_card.png";
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background 1s ease;
+}
