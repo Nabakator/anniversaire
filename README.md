@@ -2,9 +2,9 @@
 
 This project creates an interactive and fun web birthday card to celebrate your friend’s special day. Built with **HTML**, **CSS**, and **jQuery**, this web page includes progressive birthday wishes and an animated surprise to bring joy and smiles. 
 
-## Project Structure
+## Project structure
 
-The project is organized as follows:
+The project is organised as follows:
 ```
 anniversaire/
 ├── index.html            # Main HTML file containing structure and content
@@ -19,41 +19,41 @@ anniversaire/
 
 ## Features
 
-- **Progressive Messages**: Three birthday messages that appear one after another with each click.
-- **Responsive Surprise Animation**: 
+- **Progressive messages**: Three birthday messages that appear one after another with each click.
+- **Responsive surprise animation**: 
   - On the final message click, the background changes based on the screen size.
-    - **Tablet Size**: A festive birthday card image fills the background.
-    - **Non-Tablet Devices**: The background cycles through joyful colors, creating a vibrant animation.
+    - **Tablet size**: A festive birthday card image fills the background.
+    - **Non-Tablet devices**: The background cycles through joyful colours, creating a vibrant animation.
   - Additionally, an optional sound effect plays for a lively experience.
-- **Customizable**: Easily update the background image, sound effect, and message texts for personalization.
+- **Customisable**: Easily update the background image, sound effect, and message texts for personalisation.
 
 ## Setup and Usage
 
-1. **Clone the Repository**:
+1. **Clone the repo**:
    ```bash
    git clone https://github.com/Nabakator/interactive_web_birthday_card.git
    cd interactive_web_birthday_card
    ```
 
-2. **Open the Project**:
-   Open `index.html` in your favorite web browser to see the birthday card in action.
+2. **Open the project**:
+   Open `index.html` in your favourite web browser to see the birthday card in action.
    > *Tip*: Use VS Code's "Live Server" extension for an instant preview.
 
-4. **Customizations**:
+4. **Customisations**:
    - **Messages**: Edit the birthday messages directly in `index.html`.
-   - **Sound Effect**: Replace the audio source URL in `index.html` with any `.mp3` file of your choice.
-   - **Background Image**: Change the background URL in `styles.css` under `.animate-bg` for the tablet-sized experience.
+   - **Sound effect**: Replace the audio source URL in `index.html` with any `.mp3` file of your choice.
+   - **Background image**: Change the background URL in `styles.css` under `.animate-bg` for the tablet-sized experience.
 
-## Technologies Used
+## Technologies used
 
 - **HTML** - for structuring the birthday card.
 - **CSS** - for styling and animations.
 - **jQuery (JavaScript)** - for interactive functionality.
 
-## File Breakdown
+## File breakdown
 
 - **`index.html`**: Contains the main HTML structure and links to CSS and JavaScript files.
-- **`css/styles.css`**: Defines the layout, colors, and animations for the card, including responsive effects.
+- **`css/styles.css`**: Defines the layout, colours, and animations for the card, including responsive effects.
 - **`js/anniversaire.js`**: Handles the jQuery functionality for progressive message display, responsive background effects, and sound effect.
 
 ## Screenshots
