@@ -2,7 +2,7 @@
 
 This project creates an interactive and fun web birthday card to celebrate your friend’s special day. Built with **HTML**, **CSS**, and **jQuery**, this web page includes progressive birthday wishes and an animated surprise to bring joy and smiles. 
 
-## Project structure
+## Project Structure
 
 The project is organised as follows:
 ```
@@ -44,13 +44,13 @@ interactive_web_birthday_card/
    - **Sound effect**: Replace the audio source URL in `index.html` with any `.mp3` file of your choice.
    - **Background image**: Change the background URL in `styles.css` under `.animate-bg` for the tablet-sized experience.
 
-## Technologies used
+## Technologies Used
 
 - **HTML** - for structuring the birthday card.
 - **CSS** - for styling and animations.
 - **jQuery (JavaScript)** - for interactive functionality.
 
-## File breakdown
+## File Breakdown
 
 - **`index.html`**: Contains the main HTML structure and links to CSS and JavaScript files.
 - **`css/styles.css`**: Defines the layout, colours, and animations for the card, including responsive effects.
