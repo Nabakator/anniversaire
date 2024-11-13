@@ -50,9 +50,7 @@ anniversaire/
 
 ## Screenshots
 
-![screenshot](https://example.com/screenshot.png)
-
-> *Replace the URL with an actual screenshot of the birthday card page.*
+![screenshot](source/images/interactive_web_happy_birthday_card_screenshot.png)
 
 ## License
 
