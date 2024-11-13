@@ -54,7 +54,7 @@ anniversaire/
 
 ## Screenshots
 
-![screenshot](source/images/interactive_web_happy_birthday_card_screenshot.png)
+![screenshot](source/images/interactive_web_birthday_card_screenshot.png)
 
 ## License
 
