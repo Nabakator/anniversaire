@@ -27,8 +27,8 @@ anniversaire/
 
 1. **Clone the repo**:
    ```bash
-   git clone https://github.com/your-username/anniversaire.git
-   cd anniversaire
+   git clone [https://github.com/your-username/anniversaire.git](https://github.com/Nabakator/interactive_web_birthday_card.git)
+   cd interactive_web_birthday_card
    ```
 
 2. **Open the project**:
