@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFD700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #8c4e3b;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-color:  rgba(255,255,255,0.75);
+    border-radius: 0.2em;
+    background-color: rgba(255,255,255,0.75);
+}
+
+/* Styling for birthday messages */
+.voeu {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #8c4e3b;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+    border-style: solid;
+    border-color:  rgba(255,255,255,0.75);
+    border-radius: 0.2em;
+    background-color: rgba(255,255,255,0.75);
+    padding: 0.1em;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Background change/animation */
+body.animate-bg {
+    background-image: url("/source/images/happy_birthday_card.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background 1s ease;
+}
