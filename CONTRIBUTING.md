@@ -1,6 +1,6 @@
 # Contributing to 🎉 Joyeux anniversaire - Interactive Web Birthday Card Project 🎉
 
-Thank you for considering contributing to this project! We follow the **GitFlow** methodology to keep our workflow organized and ensure a stable codebase.
+Thank you for considering contributing to this project! We follow the **GitFlow** methodology to keep our workflow organised and ensure a stable codebase.
 
 ## GitFlow Installation
 
@@ -10,11 +10,11 @@ If you have **GitFlow** installed, you can simplify many of the branching steps 
 - **Windows**: Use Git Bash or download from [GitFlow for Windows](https://github.com/nvie/gitflow/wiki/Installation).
 - **Linux**: Check your package manager (e.g., `sudo apt install git-flow` for Debian-based systems).
 
-Once installed, **initialize GitFlow in the project**:
+Once installed, **initialise GitFlow in the project**:
 ```bash
 git flow init
 ```
-Accept the default branch names (`main` and `develop`), or customize if needed.
+Accept the default branch names (`main` and `develop`), or customise if needed.
 
 ## Branching Strategy
 
